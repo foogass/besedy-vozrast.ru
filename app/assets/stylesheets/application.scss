@@ -1,0 +1,65 @@
+@import "bootstrap-sprockets";
+@import "variables";
+@import "bootstrap-custom";
+
+.header {
+	background-color: #65b32e;
+}
+
+.email_top {
+	color: white;
+}
+
+.navbar-default {
+	background-color: white!important;
+	border-color: white!important;
+}
+
+.divider {
+	border-top: 2px solid #95c11f;
+}
+
+.navbar-nav>li {
+	float: none!important;
+	display: table-cell;
+}
+
+.navbar-nav {
+	display: table;
+	width: 100%;
+}
+.nav>li>a{
+	text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #95c11f;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #65b32e;
+    background-color: white;
+}
+
+.footer {
+	background-color: #65b32e;
+	font-size: 12px;
+	color: grey;
+}
+
+.contacts_title {
+	font-size: 24px;
+}
+
+.contacts {
+	background-color: #c0d242;
+	font-weight: bold;
+	font-size: 16px;
+}

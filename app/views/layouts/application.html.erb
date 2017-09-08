@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ageingtalks</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+  	<div class="wrapper">
+  		<div class="container-fluid">
+  			<div class="row header">
+  				<div class="col-lg-2 col-md-1">
+   				</div>
+   				<div class="col-lg-8 col-md-10">
+   					<br>
+   					<div class="row">
+   						<div class="col-md-8">
+   							<p class="email_top">
+   								<span class="glyphicon glyphicon-envelope"></span><b>ageingforum2017@gmail.com</b>
+   							</p>
+   						</div>
+   						<div class="col-md-2 col-xs-hidden">
+   							
+   						</div>
+   					</div>
+   				</div>
+   				<div class="col-lg-2 col-md-1">
+   					
+   				</div>
+  			</div>
+  			<div class="row">
+  				<div class="col-lg-2 col-md-1">
+   				</div>
+  				<div class="col-lg-8 col-md-10">
+  					<br>
+  					<br>
+  					<%= yield %>
+  					<br>
+  				</div>
+  				<div class="col-lg-2 col-md-1">
+   				</div>
+  			</div>
+  			<div class="row contacts">
+  				<div class="col-lg-2 col-md-1">
+   				</div>
+   				<div class="col-lg-8 col-md-10">
+   					<br>
+   					<div class="container-fluid">
+   						<div class="row">
+   							<p class="contacts_title">Контакты для СМИ</p>
+   							<br>
+   							<div class="col-sm-6">
+   								<p>Сабина Ширинова</p>
+   								<p><span class="glyphicon glyphicon-phone-alt"></span> +7 (906) 085-38-47</p>
+   								<p><span class="glyphicon glyphicon-envelope"></span> shirinova.sabina@gmail.com</p>
+   							</div>
+   							<div class="col-sm-6">
+   								<p>Тая Мараховская</p>
+   								<p><span class="glyphicon glyphicon-phone-alt"></span> +7 (915) 003-79-45</p>
+   								<p><span class="glyphicon glyphicon-envelope"></span> taya.pr@gmail.com</p>
+   							</div>
+   						</div>
+   						<div class="row">
+   							<br>
+   							<div class="col-sm-12">
+	   							<p><span class="glyphicon glyphicon-envelope"></span> ageingforum2017@gmail.com</p>
+   							</div>
+   							<br>
+   							<br>
+   							<br>
+   						</div>
+   					</div>
+   				</div>
+   				<div class="col-lg-2 col-md-1">
+   				</div>
+  			</div>
+  			<div class="row footer">
+  				<div class="col-lg-2 col-md-1">
+   				</div>
+   				<div class="col-lg-8 col-md-10">
+   					<br>
+   					<p> © 2017 Все права защищены</p>
+   					<br>
+   				</div>
+   				<div class="col-lg-2 col-md-1">
+   				</div>
+  			</div>
+  		</div>
+  	</div>
+  	</body>
+</html>
