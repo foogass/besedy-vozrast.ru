@@ -1,7 +1,7 @@
-@import "bootstrap-sprockets";
-@import "variables";
-@import "navbar-fixed-size";
-@import "bootstrap-custom";
+/*
+*= require bootstrap.min
+*= require navbar-fixed-side
+*/
 
 .header {
 	background-color: #65b32e;
@@ -63,4 +63,23 @@
 	background-color: #c0d242;
 	font-weight: bold;
 	font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
 }
