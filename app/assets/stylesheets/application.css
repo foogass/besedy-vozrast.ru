@@ -7,6 +7,17 @@
 	background-color: #65b32e;
 }
 
+.vk {
+	max-height: 20px;
+}
+
+.fb {
+	max-height: 20px;
+}
+.btn-success {
+	background-color: #65b32e!important;
+}
+
 .email_top {
 	color: white;
 }
@@ -29,9 +40,7 @@
 	display: table;
 	width: 100%;
 }
-.nav>li>a{
-	text-align: center;
-}
+
 
 .navbar-default .navbar-nav > li > a {
     color: black;
